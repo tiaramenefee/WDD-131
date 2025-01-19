@@ -69,4 +69,22 @@ footer {
     height: auto;
 }
 
+body.dark {
+    background-color: #333;
+    color: white;
+  }
+
+  body.light {
+    background-color: white;
+    color: black;
+  }
+
+  body.dark .title h2 {
+    color: #00A9E0; 
+  }
+  
+
+  body.dark .logo {
+    filter: brightness(0) invert(1); 
+  }
 
