@@ -1,0 +1,105 @@
+/* General Reset */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E7E8D1;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #B85042;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    border-bottom: 3px solid #B85042;
+}
+
+h2 {
+    color: #B85042;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h3 {
+    color: #A7BEAE;
+    font-size: 18px;
+}
+
+/* Branding */
+#branding img {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Color Palette Table */
+.color-palette {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.color-box {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.primary { background-color: #B85042; }
+.secondary { background-color: #E7E8D1; color: #333; }
+.accent1 { background-color: #A7BEAE; }
+
+/* Typography */
+p {
+    line-height: 1.6;
+}
+
+.colored {
+    background-color: #B85042;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navigation */
+#navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #A7BEAE;
+}
+
+#navigation li {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Wireframes */
+#wireframes img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
